@@ -79,9 +79,6 @@ int main(int argc, const char * argv[]) {
     cout << "\nИсходная матрица: " << endl;
     printMatrix(matrix);
     
-    
-//    printMatrix(pathMatrix);
-    
     cout << "Результат метода грубой силы: " << shortPathBruteForce(matrix)
     << "\nРезультат метода динамического программирования: " << shortPathDynamicProg(matrix, pathMatrix)
     << "\n\nЧисло шагов в методе грубой силы: " << cntBruteForce
